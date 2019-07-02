@@ -1,0 +1,113 @@
+.special {  color: green;}
+
+#algun-id {  color: blue;}
+
+p { border: 1px solid grey; }h1 { border: 5px dotted blue; }h2 { border: 10px dashed #000; }
+
+p {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  p {
+    margin: 5px 5px 5px 5px;
+  }
+
+  p {
+    margin: 5px;
+  }
+
+  p {
+    margin: 10px 20px;
+  }
+
+  p {
+    margin: 10px 20px 30px;
+  }
+
+  p {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+  }
+
+  p {
+    border: 1px solid blue;
+  }
+
+  p {
+    border-top: 1px solid blue;
+    border-right: 2px dashed red;
+    border-bottom: 3px dotted yellow;
+    border-left: 4px double green;
+  }
+
+  p {
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+
+  p {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  p {
+    padding: 5px 5px 5px 5px;
+  }
+
+  p {
+    width: 400px;
+    height: 100px;
+  }
+
+  h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+
+  p.importante {
+    font-size: 21;
+  }
+
+  div a.link span {
+    color: red;
+  }
+
+  div > .link {
+    color: red;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* no visitado */
+a:link {
+    color: #FF0000;
+}
+
+/* visitado */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse sobre el vínculo */
+a:hover {
+    color: #FF00FF;
+}
+
+/* seleccionado */
+a:active {
+    color: #0000FF;
+}
+
+p:first-child {
+    color: red;
+  }
+
+
+  /* continuar en flexbox*/
